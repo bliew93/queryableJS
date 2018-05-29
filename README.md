@@ -22,6 +22,10 @@ To get started with QueryableJS, download this library into your project and inc
 </head>
 ```
 
+### Demo
+To demo QueryableJS, download this library into your computer and open `index.html`. You can play Tic-Tac-Toe
+which is implemented using the QueryableJS library.
+
 ### API
 
 `$l`
