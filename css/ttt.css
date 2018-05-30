@@ -14,11 +14,11 @@ body {
   font-family: 'VT323';
   text-align: center;
   font-weight: bold;
-  background: url('../lib/ttt-game/background.jpg') no-repeat center;
+  background: url('../lib/ttt-game/background.png') no-repeat center;
 }
 
 .player-won {
-  color: lightgreen;
+  color: navy;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 50px;
@@ -33,21 +33,23 @@ ul {
   display: flex;
   flex-wrap: wrap;
   margin: 30px auto;
-  width: 300px;
+  width: 600px;
   border: 5px solid black;
 }
 
 li {
-  width: 90px;
-  height: 90px;
+  width: 190px;
+  height: 190px;
   border: 5px solid black;
-  background: gray;
+  background-color: rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  font-size: 80px;
+  font-size: 200px;
+  line-height: 160px;
+
 }
 
 li:hover {
-  background: yellow;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .x,
