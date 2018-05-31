@@ -11,7 +11,7 @@ ul {
 }
 
 body {
-  font-family: 'VT323';
+  font-family: 'Philosopher', sans-serif;
   text-align: center;
   font-weight: bold;
   background: url('../assets/img/background.png') no-repeat center;
@@ -93,4 +93,26 @@ li:hover {
 
 figcaption {
   font-size: 30px;
+}
+
+.personal-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.personal-info a {
+  margin-left: 40px;
+}
+
+.github:hover {
+  content: url('../assets/img/icons/gh-white.png');
+}
+
+.linkedin:hover {
+  content: url('../assets/img/icons/linkedin-white.png');
+}
+
+.personal:hover {
+  content: url('../assets/img/icons/personal-white.png');
 }
